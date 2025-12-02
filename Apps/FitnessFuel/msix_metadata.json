@@ -1,11 +1,11 @@
 {
-  "Id": "1152921505699848593",
-  "ApplicationCategory": "BooksAndReference_EReader",
+  "Id": "1152921505700216696",
+  "ApplicationCategory": "HealthAndFitness",
   "Pricing": {
-    "TrialPeriod": "ThirtyDays",
+    "TrialPeriod": "TrialNeverExpires",
     "MarketSpecificPricings": {
-      "LB": "Free",
-      "EH": "Free"
+      "LB": "NotAvailable",
+      "EH": "NotAvailable"
     },
     "PriceId": "Free",
     "IsAdvancedPricingModel": true
@@ -17,7 +17,7 @@
     "en-us": {
       "BaseListing": {
         "Keywords": [],
-        "Description": "MSIX - From API (adding test code)",
+        "Description": "From API...",
         "Features": [],
         "ReleaseNotes": "",
         "Images": [
@@ -63,14 +63,15 @@
         "Title": "FitnessFuel",
         "LicenseTerms": "From API",
         "CopyrightAndTrademarkInfo": "From API",
-        "ShortDescription": null,
+        "ShortDescription": "From API",
         "ShortTitle": "From API",
-        "VoiceTitle": ""
+        "VoiceTitle": "From API",
+        "DevStudio": "From API"
       },
       "PlatformOverrides": {}
     }
   },
-  "HardwarePreferences": ["Touch"],
+  "HardwarePreferences": [],
   "AutomaticBackupEnabled": true,
   "CanInstallOnRemovableMedia": true,
   "IsGameDvrEnabled": false,
@@ -95,7 +96,8 @@
     "Warnings": [
       {
         "Code": "SalesUnsupportedWarning",
-        "Details": "The sales resource is no longer supported. To view or edit the sales data for this submission, use the Dev Center dashboard."
+        "Details": "The sales resource is no longer supported. To view or edit 
+the sales data for this submission, use the Dev Center dashboard."
       }
     ],
     "CertificationReports": []
@@ -103,10 +105,10 @@
   "FileUploadUrl": null,
   "ApplicationPackages": [
     {
-      "FileName": "pkota.FitnessFuel_1.0.2.0_x86__4fxr7wcjkzrjg_1.msix",
+      "FileName": "pkota.FitnessFuel_1.0.4.0_x86__4fxr7wcjkzrjg.msix",
       "FileStatus": "Uploaded",
-      "Id": "2000000000086830858",
-      "Version": "1.0.2.0",
+      "Id": "2000000000090850261",
+      "Version": "1.0.4.0",
       "Architecture": "neutral",
       "Languages": [
         "en-US"
@@ -123,7 +125,7 @@
       "IsPackageRollout": false,
       "PackageRolloutPercentage": 0,
       "PackageRolloutStatus": "PackageRolloutNotStarted",
-      "FallbackSubmissionId": "0"
+      "FallbackSubmissionId": "1152921505699848593"
     },
     "IsMandatoryUpdate": false,
     "MandatoryUpdateEffectiveDate": "1601-01-01T00:00:00Z"
@@ -137,6 +139,6 @@
     "Team": false,
     "Holographic": true
   },
-  "FriendlyName": "Submission 8",
+  "FriendlyName": "Submission 18",
   "Trailers": []
 }
