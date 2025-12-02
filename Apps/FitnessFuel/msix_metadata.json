@@ -96,8 +96,7 @@
     "Warnings": [
       {
         "Code": "SalesUnsupportedWarning",
-        "Details": "The sales resource is no longer supported. To view or edit 
-the sales data for this submission, use the Dev Center dashboard."
+        "Details": "test details"
       }
     ],
     "CertificationReports": []
