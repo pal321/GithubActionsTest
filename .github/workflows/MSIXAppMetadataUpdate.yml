@@ -12,7 +12,7 @@ jobs:
       shell: pwsh
       run: |   
           msstore --version
-          $metadata = Get-Content -Raw "${{ github.workspace }}/Apps/FitnessFuel/msix_metadata.json"
+          $metadata = Get-Content -path -raw "${{ github.workspace }}/Apps/FitnessFuel/msix_metadata.json"
           msstore submission updateMetadata 9NP0T3QQXL70 $metadata
           msstore submission publish 9NP0T3QQXL70
 
