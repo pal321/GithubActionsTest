@@ -1,5 +1,5 @@
 {
-  "Id": "1152921505700216696",
+  "Id": "1152921505699848593",
   "ApplicationCategory": "HealthAndFitness",
   "Pricing": {
     "TrialPeriod": "TrialNeverExpires",
@@ -17,7 +17,7 @@
     "en-us": {
       "BaseListing": {
         "Keywords": [],
-        "Description": "Test From API...",
+        "Description": "From API",
         "Features": [],
         "ReleaseNotes": "",
         "Images": [
@@ -96,7 +96,7 @@
     "Warnings": [
       {
         "Code": "SalesUnsupportedWarning",
-        "Details": "test details"
+        "Details": "The sales resource is no longer supported. To view or edit the sales data for this submission, use the Dev Center dashboard."
       }
     ],
     "CertificationReports": []
@@ -104,10 +104,10 @@
   "FileUploadUrl": null,
   "ApplicationPackages": [
     {
-      "FileName": "pkota.FitnessFuel_1.0.4.0_x86__4fxr7wcjkzrjg.msix",
+      "FileName": "pkota.FitnessFuel_1.0.2.0_x86__4fxr7wcjkzrjg_1.msix",
       "FileStatus": "Uploaded",
-      "Id": "2000000000090850261",
-      "Version": "1.0.4.0",
+      "Id": "2000000000086830858",
+      "Version": "1.0.2.0",
       "Architecture": "neutral",
       "Languages": [
         "en-US"
@@ -124,7 +124,7 @@
       "IsPackageRollout": false,
       "PackageRolloutPercentage": 0,
       "PackageRolloutStatus": "PackageRolloutNotStarted",
-      "FallbackSubmissionId": "1152921505699848593"
+      "FallbackSubmissionId": "0"
     },
     "IsMandatoryUpdate": false,
     "MandatoryUpdateEffectiveDate": "1601-01-01T00:00:00Z"
@@ -138,6 +138,6 @@
     "Team": false,
     "Holographic": true
   },
-  "FriendlyName": "Submission 18",
+  "FriendlyName": "Submission 8",
   "Trailers": []
 }
