@@ -10,8 +10,7 @@ jobs:
     - run: msstore reconfigure --tenantId ${{ secrets.AZURE_AD_TENANT_ID }} --sellerId ${{ secrets.SELLER_ID }} --clientId ${{ secrets.AZURE_AD_APPLICATION_CLIENT_ID }} --clientSecret ${{ secrets.AZURE_AD_APPLICATION_SECRET }}
     - name: Update Metadata and Publish
       shell: pwsh
-      run: |
-          $metadata = Get-Content -Raw "${{ github.workspace }}/Apps/<productName>/msix_metadata.json"
-          msstore submission updateMetadata <productId> $metadata
-          msstore submission publish <productId>
+      run: |   
+          msstore --version
+          msstore submission get 9NP0T3QQXL70
 
